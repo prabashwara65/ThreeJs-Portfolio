@@ -3,7 +3,7 @@ import bg from "../../public/background/home-background.png"
 import RenderModel from "./Components/RenderModel";
 import Wizard from "./Components/models/Wizard";
 import Navigation from "./Components/navigation";
-import Macbook from "./Components/models/Macbook";
+// import Macbook from "./Components/models/Macbook";
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
         <Navigation />
         <RenderModel>
           <Wizard />
-          <Macbook />
+          {/* <Macbook /> */}
         </RenderModel>
         
         
