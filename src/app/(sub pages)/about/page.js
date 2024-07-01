@@ -14,7 +14,7 @@ export default function Home() {
 
 
 
-            <div className="w-full h-screen absolute top-1/2 -translate-y-1/2 left-0">
+            <div className="flex items-center justify-center fixed top-0 left-10 h-screen">
 
                 <Navigation />
                 

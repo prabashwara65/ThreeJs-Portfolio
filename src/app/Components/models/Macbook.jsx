@@ -1,16 +1,16 @@
-"use client"
+"use client";
 
-import React, { useRef } from 'react'
-import { useGLTF } from '@react-three/drei'
-import { useFrame } from '@react-three/fiber'
+import React, { useRef } from 'react';
+import { useGLTF } from '@react-three/drei';
+import { useFrame } from '@react-three/fiber';
 
 export default function Macbook(props) {
-  const { nodes, materials } = useGLTF('/models/macbook-laptop.glb')
-  const modelRef = useRef()
+  const { nodes, materials } = useGLTF('/models/macbook-laptop.glb');
+  const modelRef = useRef();
 
-  useFrame((state, delta, XRFrame) => {
-    modelRef.current.position.y = -1.5 + Math.sin(state.clock.elapsedTime) * 0.15
-  })
+  useFrame((state) => {
+    modelRef.current.position.y = -1.5 + Math.sin(state.clock.elapsedTime) * 0.15;
+  });
 
   return (
     <group {...props} dispose={null} ref={modelRef}>
@@ -69,7 +69,7 @@ export default function Macbook(props) {
         </group>
       </group>
     </group>
-  )
+  );
 }
 
-useGLTF.preload('/models/macbook-laptop.glb')
+useGLTF.preload('/models/macbook-laptop.glb');
