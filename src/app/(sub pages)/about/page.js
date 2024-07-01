@@ -14,7 +14,7 @@ export default function Home() {
 
 
 
-            <div className="flex items-center justify-center fixed top-0 left-10 h-screen">
+            <div className="flex items-center justify-center fixed top-0 left-10 h-screen z-10">
 
                 <Navigation />
                 
