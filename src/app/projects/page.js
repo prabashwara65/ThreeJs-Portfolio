@@ -1,5 +1,9 @@
 import Image from "next/image";
 import bg from "../../../public/background/projects-background.png"
+import ProjectList from "../Components/projects";
+import { projectsData } from "../data";
+import RenderModel from "../Components/RenderModel";
+import Wizard from "../Components/models/Wizard";
 
 
 export default function Home() {
@@ -8,7 +12,11 @@ export default function Home() {
       <Image src={bg} alt="background-image" fill className="w-full h-full object-cover object-center opacity-25" />
 
       
-    Projects page
+    <ProjectList projects={projectsData} />
+
+    <RenderModel>
+      <Wizard />
+    </RenderModel>
     </main>
   );
 }
