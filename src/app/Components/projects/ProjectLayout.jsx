@@ -10,10 +10,10 @@ import React from "react";
 // const ProjectLink = motion(Link);
 const ProjectLayout = ({ name, description, date, demoLink }) => {
   return (
-    <div
+    <Link
     //   //variants={item}
-    //   href={demoLink}
-    //   target={"_blank"}
+       href={demoLink}
+      target={"_blank"}
       className=" text-sm md:text-base flex  items-center justify-between w-full relative rounded-lg overflow-hidden p-4 md:p-6 custom-bg"
     >
       <div className="flex items-center justify-center space-x-2">
@@ -24,7 +24,7 @@ const ProjectLayout = ({ name, description, date, demoLink }) => {
       <p className="text-muted sm:text-foreground">
         {new Date(date).toDateString()}
       </p>
-    </div>
+    </Link>
   );
 };
 
