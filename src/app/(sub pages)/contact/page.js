@@ -1,6 +1,7 @@
 import Image from "next/image";
 import bg from "../../../../public/background/contact-background.png"
 import Navigation from "../../Components/navigation";
+import Form from "@/app/Components/contact/Form";
 
 
 // import Macbook from "./Components/models/Macbook";
@@ -34,7 +35,7 @@ export default function Home() {
                 </p>
 
                 </div>
-
+                    <Form />
             </article>
 
         </>
