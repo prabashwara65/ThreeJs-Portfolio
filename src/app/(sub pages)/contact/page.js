@@ -14,7 +14,7 @@ export default function Home() {
                 alt="background-image"
                 fill className="w-full h-full object-cover object-center opacity-25" />
 
-            <div className="flex items-center justify-center fixed top-0 left-10 h-screen z-10">
+            <div className="flex items-center justify-center fixed top-0 left-10 h-screen ">
 
                 <Navigation />
 
@@ -35,7 +35,7 @@ export default function Home() {
                 </p>
 
                 </div>
-                    <Form />
+                    <Form className='z-50'/>
             </article>
 
         </>
