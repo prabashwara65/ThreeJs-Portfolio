@@ -56,7 +56,8 @@ const NavButton = ({
   return (
     <ResponsiveComponent>
       {({ size }) => {
-        const isMobile = size < 480;
+         const isMobile = size < 480;
+        
 
         return (
           <div
