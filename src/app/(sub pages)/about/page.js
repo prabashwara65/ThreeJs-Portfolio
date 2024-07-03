@@ -4,6 +4,7 @@ import RenderModel from "../../Components/RenderModel";
 import Wizard from "../../Components/models/Wizard";
 import Navigation from "../../Components/navigation";
 import AboutDetails from "@/app/Components/about";
+import HomeBtn from "@/app/Components/HomeBtn";
 
 // import Macbook from "./Components/models/Macbook";
 
@@ -16,7 +17,8 @@ export default function Home() {
 
             <div className="flex items-center justify-center fixed top-0 left-10 h-screen z-10">
 
-                <Navigation />
+                {/* <Navigation /> */}
+                <HomeBtn />
                 
                 {/* <RenderModel>
                 <Staff />
