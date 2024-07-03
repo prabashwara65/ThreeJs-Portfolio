@@ -25,8 +25,8 @@ export default function Home() {
 
 
             <div className="relative w-full h-screen flex flex-col items-center justify-center">
-                <div className="absolute flex flex-col items-center text-center top-[60%] left-1/2 -translate-x-1/2">
-                    <h1 className="font-bold text-9xl text-accent">Prabashwara</h1>
+                <div className="absolute flex flex-col items-center text-center top-1/2 sm:top-[60%] left-1/2 -translate-x-1/2">
+                    <h1 className="font-bold text-6xl xs:text-7xl sm:text-8xl lg:text-9xl text-accent">Prabashwara</h1>
                     <p className="font-light text-foreground text-ls">Meet the wizard behind this portfolio</p>
                 </div>
             </div>
