@@ -1,10 +1,10 @@
 import Image from "next/image";
 import bg from "../../public/background/home-background.png"
 import RenderModel from "./Components/RenderModel";
-import Wizard from "./Components/models/Wizard";
-import Navigation from "./Components/navigation";
-import Macbook from "./Components/models/Macbook";
 
+import Navigation from "./Components/navigation";
+
+import Anotherlap from "./Components/models/Anotherlap";
 
 export default function Home() {
   return (
@@ -16,8 +16,9 @@ export default function Home() {
 
         <Navigation />
         <RenderModel>
-          {/* <Wizard /> */}
-          {/* <Macbook /> */}
+
+          <Anotherlap />
+
         </RenderModel>
         
         
