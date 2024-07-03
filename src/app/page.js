@@ -17,7 +17,7 @@ export default function Home() {
         <Navigation />
         <RenderModel>
           {/* <Wizard /> */}
-          <Macbook />
+          {/* <Macbook /> */}
         </RenderModel>
         
         
