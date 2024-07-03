@@ -24,39 +24,61 @@ const Navigation = () => {
 
                     return size && size >= 480 ?
 
-                        <div className=' flex items-center justify-center relative hover:pause animate-spin-slow group'>
-                            {
-                                BtnList.map((btn, index) => {
+                        (
+                            <div className=' flex items-center justify-center relative hover:pause animate-spin-slow group'>
+                                {
+                                    BtnList.map((btn, index) => {
 
-                                    const angleRad = (index * angleIncrement * Math.PI) / 180
-                                    const radius = isLargee ? 'calc(20vw - 1rem)' : isMedium ? 'calc(30vw - 1rem)' : 'calc(40vw - 1rem)'
-                                    const x = `calc(${radius}*${Math.cos(angleRad)})`;
-                                    const y = `calc(${radius}*${Math.sin(angleRad)})`;
+                                        const angleRad = (index * angleIncrement * Math.PI) / 180
+                                        const radius = isLargee ? 'calc(20vw - 1rem)' : isMedium ? 'calc(30vw - 1rem)' : 'calc(40vw - 1rem)'
+                                        const x = `calc(${radius}*${Math.cos(angleRad)})`;
+                                        const y = `calc(${radius}*${Math.sin(angleRad)})`;
 
-                                    return <NavButton key={btn.label} x={x} y={y} {...btn} />
-
-
-                                })
-                            }
-                        </div>
-
-                        :
-                        
-                        <div className=' flex items-center justify-center relative hover:pause animate-spin-slow group'>
-                        {
-                            BtnList.map((btn, index) => {
-
-                                const angleRad = (index * angleIncrement * Math.PI) / 180
-                                const radius = isLargee ? 'calc(20vw - 1rem)' : isMedium ? 'calc(30vw - 1rem)' : 'calc(40vw - 1rem)'
-                                const x = `calc(${radius}*${Math.cos(angleRad)})`;
-                                const y = `calc(${radius}*${Math.sin(angleRad)})`;
-
-                                return <NavButton key={btn.label} x={x} y={y} {...btn} />
+                                        return <NavButton key={btn.label} x={x} y={y} {...btn} />
 
 
-                            })
-                        }
-                    </div>
+                                    })
+                                }
+                            </div>
+
+                        ) : (
+                            <>
+                                <div className=' flex items-center justify-center relative hover:pause animate-spin-slow group'>
+                                    {
+                                        BtnList.slice(0,BtnList/2).map((btn, index) => {
+
+                                            const angleRad = (index * angleIncrement * Math.PI) / 180
+                                            const radius = isLargee ? 'calc(20vw - 1rem)' : isMedium ? 'calc(30vw - 1rem)' : 'calc(40vw - 1rem)'
+                                            const x = `calc(${radius}*${Math.cos(angleRad)})`;
+                                            const y = `calc(${radius}*${Math.sin(angleRad)})`;
+
+                                            return <NavButton key={btn.label} x={x} y={y} {...btn} />
+
+
+                                        })
+                                    }
+                                </div>
+
+                                <div className=' flex items-center justify-center relative hover:pause animate-spin-slow group'>
+                                    {
+                                        BtnList.slice(BtnList/2 , BtnList.length).map((btn, index) => {
+
+                                            const angleRad = (index * angleIncrement * Math.PI) / 180
+                                            const radius = isLargee ? 'calc(20vw - 1rem)' : isMedium ? 'calc(30vw - 1rem)' : 'calc(40vw - 1rem)'
+                                            const x = `calc(${radius}*${Math.cos(angleRad)})`;
+                                            const y = `calc(${radius}*${Math.sin(angleRad)})`;
+
+                                            return <NavButton key={btn.label} x={x} y={y} {...btn} />
+
+
+                                        })
+                                    }
+                                </div>
+
+                            </>
+                        )
+
+
                 }
 
                 }
