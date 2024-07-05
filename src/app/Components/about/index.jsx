@@ -25,20 +25,20 @@ const AboutDetails = () => {
 
         <ItemLayout className="col-span-full xs:col-span-6 lg:col-span-4 text-accent">
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            25+ <sub className="font-semibold text-base">clients</sub>
+            5+ <sub className="font-semibold text-base">clients</sub>
           </p>
         </ItemLayout>
 
         <ItemLayout className="col-span-full xs:col-span-6 lg:col-span-4 text-accent">
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            4+ <sub className="font-semibold text-base">years of experience</sub>
+            1.5+ <sub className="font-semibold text-base">years of experience</sub>
           </p>
         </ItemLayout>
 
         <ItemLayout className="col-span-full sm:col-span-6 md:col-span-6 !p-0">
           <img
             className="w-full h-auto"
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=prabashwara65&theme=gruvbox&hide_border=true&include_all_commits=false&count_private=false&layout=compact"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=prabashwara65&theme=gruvbox&hide_border=true&include_all_commits=false&count_private=false&layout=compact&bg_color=00000000"
             alt="CodeBucks"
             loading="lazy"
             //"https://github-contributor-stats.vercel.app/api?username=prabashwara65&limit=5&theme=gruvbox&hide_border=true&combine_all_yearly_contributions=true"
@@ -48,7 +48,7 @@ const AboutDetails = () => {
         <ItemLayout className="col-span-full md:col-span-6 !p-0">
           <img
             className="w-full h-auto"
-            src="https://github-contributor-stats.vercel.app/api?username=prabashwara65&limit=5&theme=gruvbox&hide_border=true&combine_all_yearly_contributions=true"
+            src="https://github-contributor-stats.vercel.app/api?username=prabashwara65&limit=5&theme=gruvbox&hide_border=true&combine_all_yearly_contributions=true&bg_color=00000000"
             alt="CodeBucks"
             loading="lazy"
           />
@@ -66,7 +66,7 @@ const AboutDetails = () => {
         <ItemLayout className="col-span-full md:col-span-6 !p-0">
           <img
             className="w-full h-auto"
-            src="https://github-readme-streak-stats.herokuapp.com/?user=prabashwara65&theme=gruvbox&hide_border=true"
+            src="https://github-readme-streak-stats.herokuapp.com/?user=prabashwara65&theme=gruvbox&hide_border=true&background=00000000&stroke=00000000&fire=DD2727&ring=DD2727"
             alt="CodeBucks"
             loading="lazy"
           />
@@ -80,7 +80,7 @@ const AboutDetails = () => {
           > 
             <img
               className="w-full h-auto"
-              src="https://github-readme-stats.vercel.app/api?username=prabashwara65&theme=gruvbox&hide_border=true&include_all_commits=false&count_private=false"
+              src="https://github-readme-stats.vercel.app/api?username=prabashwara65&theme=gruvbox&hide_border=true&include_all_commits=false&count_private=false&bg_color=00000000"
               alt="CodeBucks"
               loading="lazy"
             />
