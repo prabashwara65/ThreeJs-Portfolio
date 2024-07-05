@@ -2,6 +2,7 @@ import Image from "next/image";
 import bg from "../../../../public/background/contact-background.png"
 import Navigation from "../../Components/navigation";
 import Form from "@/app/Components/contact/Form";
+import HomeBtn from "@/app/Components/HomeBtn";
 
 
 // import Macbook from "./Components/models/Macbook";
@@ -16,7 +17,8 @@ export default function Home() {
 
             <div className="flex items-center justify-center fixed top-0 left-10 h-screen ">
 
-                <Navigation />
+                {/* <Navigation /> */}
+                <HomeBtn />
 
                 {/* <RenderModel>
                     <Staff />
@@ -27,11 +29,13 @@ export default function Home() {
 
                 <div className="flex flex-col items-center justify-center space-y-6 w-3/4">
                 <h1 className="text-accent font-semibold text-center text-4xl capitalize">
-                        Summon the wizard
+                        Contact Me
                 </h1>
                 <p className="text-center font-light">
-                    lorem jasdkasfaif njefjsefkjs ke sfjefnskms efeahfke fs efaeifaefa ryaea raihfae fakenfoiaef aefa efka
-                    lorem jasdkasfaif njefjsefkjs ke sfjefnskms efeahfke fs efaeifaefa ryaea raihfae fakenfoiaef aefa efka
+                If you have any questions or would like to discuss potential opportunities, 
+                please feel free to reach out to me. I'm always open to connecting and exploring new possibilities
+
+
                 </p>
 
                 </div>

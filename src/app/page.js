@@ -5,6 +5,7 @@ import RenderModel from "./Components/RenderModel";
 import Navigation from "./Components/navigation";
 
 import Anotherlap from "./Components/models/Anotherlap";
+import MacBook from "./Components/models/Macbook";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <RenderModel>
 
           <Anotherlap />
+          {/* <MacBook /> */}
 
         </RenderModel>
         
