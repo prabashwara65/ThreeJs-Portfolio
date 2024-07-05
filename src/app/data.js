@@ -19,15 +19,15 @@ Websites:
 export const projectsData = [
   {
     id: 1,
-    name: "EcoTracker",
-    description: "Track your carbon footprint",
+    name: "Hardware-Management-System",
+    description: "Web application for hardware",
     date: "2022-08-15",
-    demoLink: "https://ecotracker.example.com",
+    demoLink: "https://github.com/prabashwara65/Hardware-Management-System.git",
   },
   {
     id: 2,
-    name: "ArtGallery Online",
-    description: "Digital art showcase platform",
+    name: "Online-Music-Web-App",
+    description: "Digital Music showcase platform",
     date: "2022-06-20",
     demoLink: "https://artgalleryonline.example.com",
   },
@@ -96,19 +96,19 @@ export const BtnList = [
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
   {
     label: "Github",
-    link: "https://www.github.com/codebucks27",
+    link: "https://www.github.com/prabashwara65",
     icon: "github",
     newTab: true,
   },
   {
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/codebucks",
+    link: "https://www.linkedin.com/in/priyanka-prabashwara",
     icon: "linkedin",
     newTab: true,
   },
   {
     label: "X",
-    link: "https://www.x.com/code_bucks",
+    link: "https://www.x.com/priyankaprabashwara",
     icon: "twitter",
     newTab: true,
   },
