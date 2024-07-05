@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bg from "../../../../public/background/contact-background.png"
+import bg from "../../../../public/background/home-background.png"
 import Navigation from "../../Components/navigation";
 import Form from "@/app/Components/contact/Form";
 import HomeBtn from "@/app/Components/HomeBtn";
