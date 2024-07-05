@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={clsx(inter.variable, " bg-background text-foreground font-inter")}>
         {children}
-        {/* <FireFliesBackground /> */}
+        <FireFliesBackground />
         </body>
     </html>
   );

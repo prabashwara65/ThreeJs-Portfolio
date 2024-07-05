@@ -23,9 +23,9 @@ const laptop = React.memo(function laptop(props) {
   return (
     <group {...props} dispose={null} ref={modelRef}>
       <group 
-      position={[0.2, 0.7, 0.3]} 
+      position={[0, 1, 0.3]} 
       scale ={[1, 1 , 1]}
-      rotation={[-Math.PI / 2.3, 0.1, -0.8]}
+      rotation={[-Math.PI / 2.3, -0.0, -1.6]}
     
       >
         <group rotation={[Math.PI / 2, 0, 0]}>
