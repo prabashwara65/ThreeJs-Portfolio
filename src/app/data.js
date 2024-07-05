@@ -54,7 +54,7 @@ export const projectsData = [
   },
   {
     id: 6,
-    name: "JourneyLogger",
+    name: "BookME-fullStack-React-travel-app",
     description: "Log your travels",
     date: "2022-10-01",
     demoLink: "https://journeylogger.example.com",
