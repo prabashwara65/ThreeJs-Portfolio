@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 import React from "react";
 
 const item = {
@@ -7,24 +8,35 @@ const item = {
   show: { opacity: 1, y: 0 },
 };
 
-const ProjectLink = motion(Link);
-const ProjectLayout = ({ name, description, date, demoLink }) => {
+const ProjectLayout = ({ id, name, description, date, demoLink, imageUrl, isSelected, onClick }) => {
   return (
-    <ProjectLink
-       variants={item}
-       href={demoLink}
-      target={"_blank"}
-      className=" text-sm md:text-base flex  items-center justify-between w-full relative rounded-lg overflow-hidden p-4 md:p-6 custom-bg"
+    <motion.div 
+      className={`text-sm md:text-base flex flex-col items-center justify-between w-full relative rounded-lg overflow-hidden p-4 md:p-6 custom-bg transition-transform duration-300 cursor-pointer ${
+        isSelected ? "scale-110" : ""
+      }`}
+      onClick={onClick}
+      layout
     >
-      <div className="flex items-center justify-center space-x-2">
+      <div className="flex items-center justify-between w-full">
         <h2 className="text-foreground">{name}</h2>
-        <p className="text-muted hidden sm:inline-block">{description}</p>
+        <p className="text-muted sm:text-foreground">
+          {new Date(date).toDateString()}
+        </p>
       </div>
-      <div className="self-end flex-1 mx-2 mb-1 bg-transparent border-b border-dashed border-muted" />
-      <p className="text-muted sm:text-foreground">
-        {new Date(date).toDateString()}
-      </p>
-    </ProjectLink>
+      {isSelected && (
+        <div className="mt-2">
+          {imageUrl && (
+            <div className="mb-2">
+              <Image src={imageUrl} alt={`${name} image`} width={600} height={400} className="rounded-lg" />
+            </div>
+          )}
+          <p className="text-muted sm:inline-block">{description}</p>
+          <Link href={demoLink} target="_blank" className="text-blue-500 underline">
+            View Demo
+          </Link>
+        </div>
+      )}
+    </motion.div>
   );
 };
 
