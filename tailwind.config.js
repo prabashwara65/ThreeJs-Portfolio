@@ -2,6 +2,11 @@ const { transform } = require('next/dist/build/swc');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+
+  images: {
+    domains: ['raw.githubusercontent.com'],
+  },
+  
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -18,7 +23,9 @@ module.exports = {
         muted: "rgb(var(--muted))",
         accent: "rgb(var(--accent))",
 
-      },                          //
+      },    
+      
+      //
       
       backgroundImage:{
         'firefly-radial': "radial-gradient(50% 50% at 50% 50%, rgba(253, 255, 80, 0.5) 0%, rgba(217,217,217, 0) 100%)"
