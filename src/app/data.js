@@ -19,7 +19,7 @@ export const projectsData = [
     id: 3,
     name: "PlaneShooting-Kotlin-Android-Game",
     description: "Plan and track expenses",
-    imageUrl: "https://raw.githubusercontent.com/prabashwara65/PlaneShooting-Kotlin-Android-Game/main/img/plane.png",
+    imageUrl: "https://raw.githubusercontent.com/prabashwara65/PlaneShooting-Kotlin-Android-Game/main/planeshooting.png",
     date: "2022-09-10",
     demoLink: "https://github.com/prabashwara65/PlaneShooting-Kotlin-Android-Game",
   },
