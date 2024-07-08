@@ -11,7 +11,7 @@ export const projectsData = [
     id: 2,
     name: "Online-Music-Web-App",
     description: "Digital Music showcase platform",
-    imageUrl: "/photos/home-background.png",
+    imageUrl: "https://raw.githubusercontent.com/prabashwara65/Boat-Safari-Management-System/main/img/Reservation.png",
     date: "2022-06-20",
     demoLink: "https://github.com/prabashwara65/Online-Music-Web-App",
   },
