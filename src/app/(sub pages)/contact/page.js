@@ -33,7 +33,7 @@ export default function Home() {
                 </h1>
                 <p className="text-center font-light">
                 If you have any questions or would like to discuss potential opportunities, 
-                please feel free to reach out to me. I'm always open to connecting and exploring new possibilities
+                please feel free to reach out to me. I&apos;m always open to connecting and exploring new possibilities
 
 
                 </p>

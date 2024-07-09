@@ -11,7 +11,7 @@ const AboutDetails = () => {
             About me
           </h2>
           <p className="font-light text-xs sm:text-sm md:text-base">
-          I'm a full stack developer starting out, and a wide range of mysterious tools and languages light my way. JavaScript is a powerful force that molds my creations and resides at the core of my enchantments. I work with frameworks like Next.js and React.js with flexibility, creating slick websites and portals that link people and realms throughout the digital world.
+          I&apos;m a full stack developer starting out, and a wide range of mysterious tools and languages light my way. JavaScript is a powerful force that molds my creations and resides at the core of my enchantments. I work with frameworks like Next.js and React.js with flexibility, creating slick websites and portals that link people and realms throughout the digital world.
           </p>
         </ItemLayout>
 
