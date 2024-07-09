@@ -3,7 +3,7 @@ import React, { useRef } from 'react';
 import { useGLTF } from '@react-three/drei';
 import { useFrame } from '@react-three/fiber';
 
-const laptop = React.memo(function laptop(props) {
+const Laptop = React.memo(function Laptop(props) {
   const { nodes, materials } = useGLTF('/models/gaming_laptop_with_surface_keyboard.glb');
   const modelRef = useRef();
 
@@ -14,19 +14,18 @@ const laptop = React.memo(function laptop(props) {
     }
   });
 
-
-  useFrame((state , delta , XRFrame) => {
-    //console.log(state.clock)
-    modelRef.current.position.y = -1.5 + Math.sin(state.clock.elapsedTime)*0.15
-  })
+  useFrame((state) => {
+    if (modelRef.current) {
+      modelRef.current.position.y = -1.5 + Math.sin(state.clock.elapsedTime) * 0.15;
+    }
+  });
 
   return (
     <group {...props} dispose={null} ref={modelRef}>
       <group 
-      position={[0, 1, 0.3]} 
-      scale ={[1, 1 , 1]}
-      rotation={[-Math.PI / 2.3, -0.0, -1.6]}
-    
+        position={[0, 1, 0.3]} 
+        scale={[1, 1, 1]}
+        rotation={[-Math.PI / 2.3, -0.0, -1.6]}
       >
         <group rotation={[Math.PI / 2, 0, 0]}>
           <mesh
@@ -90,5 +89,5 @@ const laptop = React.memo(function laptop(props) {
   );
 });
 
-export default laptop;
-useGLTF.preload('/medels/gaming_laptop_with_surface_keyboard.glb');
+export default Laptop;
+useGLTF.preload('/models/gaming_laptop_with_surface_keyboard.glb');
