@@ -1,5 +1,5 @@
 import React from "react";
-import ItemLayout from "./ItemLayout";
+import ItemLayout from "./ItemLayout.jsx";
 import Link from "next/link";
 
 const AboutDetails = () => {
