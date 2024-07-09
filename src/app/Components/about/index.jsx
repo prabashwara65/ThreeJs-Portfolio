@@ -31,7 +31,7 @@ const AboutDetails = () => {
           <img
             className="w-full h-auto"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=prabashwara65&theme=gruvbox&hide_border=true&include_all_commits=false&count_private=false&layout=compact&bg_color=00000000"
-            alt="CodeBucks"
+            alt="OSLA"
             loading="lazy"
             //"https://github-contributor-stats.vercel.app/api?username=prabashwara65&limit=5&theme=gruvbox&hide_border=true&combine_all_yearly_contributions=true"
           />
@@ -41,7 +41,7 @@ const AboutDetails = () => {
           <img
             className="w-full h-auto"
             src="https://github-contributor-stats.vercel.app/api?username=prabashwara65&limit=5&theme=gruvbox&hide_border=true&combine_all_yearly_contributions=true&bg_color=00000000"
-            alt="CodeBucks"
+            alt="OSLA"
             loading="lazy"
           />
         </ItemLayout>
@@ -50,7 +50,7 @@ const AboutDetails = () => {
           <img
             className="w-full h-auto"
             src={`https://skillicons.dev/icons?i=appwrite,aws,babel,bootstrap,cloudflare,css,d3,docker,figma,firebase,gatsby,git,github,graphql,html,ipfs,js,jquery,kubernetes,linux,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,redux,replit,sass,supabase,tailwind,threejs,vercel,vite,vscode,yarn`}
-            alt="CodeBucks"
+            alt="OSLA"
             loading="lazy"
           />
         </ItemLayout>
@@ -59,7 +59,7 @@ const AboutDetails = () => {
           <img
             className="w-full h-auto"
             src="https://github-readme-streak-stats.herokuapp.com/?user=prabashwara65&theme=gruvbox&hide_border=true&background=00000000&stroke=00000000&fire=DD2727&ring=DD2727"
-            alt="CodeBucks"
+            alt="OSLA"
             loading="lazy"
           />
         </ItemLayout>
@@ -73,7 +73,7 @@ const AboutDetails = () => {
             <img
               className="w-full h-auto"
               src="https://github-readme-stats.vercel.app/api?username=prabashwara65&theme=gruvbox&hide_border=true&include_all_commits=false&count_private=false&bg_color=00000000"
-              alt="CodeBucks"
+              alt="OSLA"
               loading="lazy"
             />
           </Link>
