@@ -15,14 +15,7 @@ export const projectsData = [
     date: "2022-06-20",
     demoLink: "https://github.com/prabashwara65/Online-Music-Web-App",
   },
-  {
-    id: 3,
-    name: "PlaneShooting-Kotlin-Android-Game",
-    description: "Plan and track expenses",
-    imageUrl: "https://raw.githubusercontent.com/prabashwara65/PlaneShooting-Kotlin-Android-Game/main/planeshooting.png",
-    date: "2022-09-10",
-    demoLink: "https://github.com/prabashwara65/PlaneShooting-Kotlin-Android-Game",
-  },
+ 
   {
     id: 4,
     name: "SchoolManagementSystem-Dekstop-App",
@@ -54,6 +47,15 @@ export const projectsData = [
     imageUrl: "https://raw.githubusercontent.com/prabashwara65/Ecommerce-Fullstack-Nextjs/main/img/ecommerce.png",
     date: "2022-04-18",
     demoLink: "https://studybuddy.example.com",
+  },
+
+  {
+    id: 3,
+    name: "PlaneShooting-Kotlin-Android-Game",
+    description: "Plan and track expenses",
+    imageUrl: "https://raw.githubusercontent.com/prabashwara65/PlaneShooting-Kotlin-Android-Game/main/planeshooting.png",
+    date: "2022-09-10",
+    demoLink: "https://github.com/prabashwara65/PlaneShooting-Kotlin-Android-Game",
   },
 
 ];
