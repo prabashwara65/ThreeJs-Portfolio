@@ -17,7 +17,7 @@ export const projectsData = [
   },
  
   {
-    id: 4,
+    id: 3,
     name: "SchoolManagementSystem-Dekstop-App",
     description: "Monitor heart rate zones",
     imageUrl: "https://raw.githubusercontent.com/prabashwara65/SchoolManagementSystem-Dekstop-App/main/StudentCrud.png",
@@ -25,7 +25,7 @@ export const projectsData = [
     demoLink: "https://github.com/prabashwara65/SchoolManagementSystem-Dekstop-App",
   },
   {
-    id: 5,
+    id: 4,
     name: "Boat-Safari-Management-System",
     description: "Discover new recipes",
     imageUrl: "https://raw.githubusercontent.com/prabashwara65/Boat-Safari-Management-System/main/img/Greenhorizon.png",
@@ -33,7 +33,7 @@ export const projectsData = [
     demoLink: "https://github.com/prabashwara65/Boat-Safari-Management-System",
   },
   {
-    id: 6,
+    id: 5,
     name: "BookME-fullStack-React-travel-app",
     description: "Log your travels",
     imageUrl: "https://raw.githubusercontent.com/prabashwara65/BookME-fullStack-React-travel-app/main/img/bookme.png",
@@ -41,7 +41,7 @@ export const projectsData = [
     demoLink: "https://journeylogger.example.com",
   },
   {
-    id: 7,
+    id: 6,
     name: "Ecommerce-Fullstack-Nextjs",
     description: "Collaborative ecommerce platform",
     imageUrl: "https://raw.githubusercontent.com/prabashwara65/Ecommerce-Fullstack-Nextjs/main/img/ecommerce.png",
@@ -50,7 +50,7 @@ export const projectsData = [
   },
 
   {
-    id: 3,
+    id: 7,
     name: "PlaneShooting-Kotlin-Android-Game",
     description: "Plan and track expenses",
     imageUrl: "https://raw.githubusercontent.com/prabashwara65/PlaneShooting-Kotlin-Android-Game/main/planeshooting.png",
