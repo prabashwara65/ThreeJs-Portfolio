@@ -10,10 +10,7 @@ const useScreenSize = () => {
       return window.innerWidth;
     }
 
-    function handleResize() {
-      setScreenSize(getScreenSize());
-    }
-
+ 
     handleResize();
 
     window.addEventListener("resize", handleResize);

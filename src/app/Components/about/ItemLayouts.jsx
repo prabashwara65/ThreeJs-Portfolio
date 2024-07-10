@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import clsx from "clsx";
 
-const ItemLayout = ({ children, className }) => {
+const ItemLayout = ({}) => {
   return (
     <motion.div
       initial={{ scale: 0 }}
@@ -14,7 +14,7 @@ const ItemLayout = ({ children, className }) => {
         className
       )}
     >
-      {children}
+     
     </motion.div>
   );
 };

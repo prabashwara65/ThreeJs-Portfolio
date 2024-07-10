@@ -8,7 +8,7 @@ const RenderModel = ({ children, className }) => {
   return (
     <div className="w-screen h-screen relative z-5">
       <Canvas className={clsx("w-full h-full", className)}>
-        <Suspense fallback={null}>
+        <Suspense >
           {children}
         </Suspense>
         <Environment preset='forest' />
